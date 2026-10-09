@@ -1,0 +1,16 @@
+DRY RUN. No changes made. (Fictional example output.)
+
+Target mailbox : exec.a@contoso.com (UserMailbox)
+Folder         : exec.a@contoso.com:\Calendar
+Change         : ADD  EA Cover (ea.cover@contoso.com)  AccessRights=Editor  SharingPermissionFlags=Delegate
+Unchanged      : Default {AvailabilityOnly}; Anonymous {None}; EA Primary {Editor} Delegate
+Window         : 2026-01-05 to 2026-01-16
+Removal        : TASK-0002, due 2026-01-16 17:00 MT
+
+Stop conditions:
+  [ok] both recipients exist and are UserMailbox
+  [ok] no existing entry for EA Cover on this folder
+  [ok] approval record present on TASK-0001
+  [ok] request is calendar only (no FullAccess, no SendAs)
+
+To apply: rerun with -Apply after approval in the session.

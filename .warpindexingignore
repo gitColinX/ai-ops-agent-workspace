@@ -1,0 +1,9 @@
+_workbench/
+_archive_superseded/
+sources/
+exports/
+kb/unpublished/
+kb/versions/
+*.pdf
+*.xlsx
+*.xlsm

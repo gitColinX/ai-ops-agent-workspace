@@ -1,0 +1,5 @@
+* text=auto
+# The VBA editor expects CRLF when it imports a module.
+*.bas text eol=crlf
+*.xlsx binary
+*.xlsm binary

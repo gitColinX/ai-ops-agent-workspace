@@ -1,0 +1,25 @@
+{
+  "_note": "Fictional snapshot of an account built exactly to the runbook. The manager DN differs only in case, which the gate accepts.",
+  "Name": "Avery Sample (Contractor)",
+  "SamAccountName": "AverySample",
+  "UserPrincipalName": "AverySample@contoso.com",
+  "DisplayName": "Avery Sample (Contractor)",
+  "GivenName": "Avery",
+  "Surname": "Sample",
+  "StreetAddress": "100 Example Way, Suite 200",
+  "City": "Springfield",
+  "State": "CO",
+  "PostalCode": "80000",
+  "Country": "US",
+  "Department": "Operations",
+  "Title": "Field Analyst",
+  "Manager": "CN=Morgan Example,OU=Employees,OU=Users,DC=Corp,DC=Contoso,DC=Com",
+  "extensionAttribute10": "Start: 2026-01-12",
+  "Enabled": true,
+  "DistinguishedName": "CN=Avery Sample (Contractor),OU=Contractors,OU=Users,DC=corp,DC=contoso,DC=com",
+  "MemberOf": [
+    "All Staff",
+    "Contractors",
+    "VPN Users"
+  ]
+}

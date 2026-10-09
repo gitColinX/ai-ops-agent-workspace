@@ -1,0 +1,27 @@
+{
+  "_note": "Fictional. Same rules as expected.json, for a name with accented letters. Saved as UTF-8 without a BOM.",
+  "GivenName": "René",
+  "Surname": "Núñez",
+  "DisplayNameSuffix": " (Contractor)",
+  "UpnDomain": "contoso.com",
+  "StartDate": "2026-02-02",
+  "StartDateAttribute": "extensionAttribute10",
+  "StartDatePrefix": "Start: ",
+  "Department": "Operations",
+  "Title": "Field Analyst",
+  "Manager": "CN=Morgan Example,OU=Employees,OU=Users,DC=corp,DC=contoso,DC=com",
+  "Enabled": true,
+  "OrganizationalUnit": "OU=Contractors,OU=Users,DC=corp,DC=contoso,DC=com",
+  "Office": {
+    "StreetAddress": "100 Example Way, Suite 200",
+    "City": "Springfield",
+    "State": "CO",
+    "PostalCode": "80000",
+    "Country": "US"
+  },
+  "RequiredGroups": [
+    "All Staff",
+    "Contractors",
+    "VPN Users"
+  ]
+}

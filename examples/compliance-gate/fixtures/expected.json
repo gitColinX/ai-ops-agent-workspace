@@ -1,0 +1,27 @@
+{
+  "_note": "Fictional. Expected values taken from the intake block for one new account. StartDateAttribute and StartDatePrefix are whatever your runbook uses.",
+  "GivenName": "Avery",
+  "Surname": "Sample",
+  "DisplayNameSuffix": " (Contractor)",
+  "UpnDomain": "contoso.com",
+  "StartDate": "2026-01-12",
+  "StartDateAttribute": "extensionAttribute10",
+  "StartDatePrefix": "Start: ",
+  "Department": "Operations",
+  "Title": "Field Analyst",
+  "Manager": "CN=Morgan Example,OU=Employees,OU=Users,DC=corp,DC=contoso,DC=com",
+  "Enabled": true,
+  "OrganizationalUnit": "OU=Contractors,OU=Users,DC=corp,DC=contoso,DC=com",
+  "Office": {
+    "StreetAddress": "100 Example Way, Suite 200",
+    "City": "Springfield",
+    "State": "CO",
+    "PostalCode": "80000",
+    "Country": "US"
+  },
+  "RequiredGroups": [
+    "All Staff",
+    "Contractors",
+    "VPN Users"
+  ]
+}

@@ -1,0 +1,91 @@
+# Secret-aware .gitignore for an AI-assisted IT operations workspace.
+# Rule of thumb: if a file could hold a credential, a token, or a person's
+# data, it does not get committed. Sanitized summaries go in Markdown.
+
+# --- Secrets and credential caches -------------------------------------
+.env
+.env.*
+*.env
+!.env.example
+**/.secrets/
+*.dpapi
+*.token
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+**/credentials
+**/credentials.*
+**/.credentials.json
+**/.aws/
+**/.azure/
+**/.ssh/
+**/.IdentityService/
+**/*token_cache*
+**/*msal*cache*
+
+# Sign-in handoff folders used by device-code helpers. Device codes and
+# cached tokens never leave the machine.
+_workbench/_auth/
+_workbench/_graph-login/
+_workbench/_aws-login/
+**/sso_login.out
+**/sso_login.err
+**/device_code*.txt
+
+# --- Assistant local state ---------------------------------------------
+.claude/settings.local.json
+.claude/settings.local.json.bak*
+CLAUDE.local.md
+.codex/
+# Agent transcripts and local databases (terminal history, agent state,
+# search indexes) hold commands, output and sometimes tokens.
+*.jsonl
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# --- Evidence, exports and raw data (personal data lives here) ---------
+_workbench/**/evidence/
+_workbench/**/exports/
+_workbench/**/*.csv
+_workbench/**/*.json
+_workbench/**/*.xlsx
+_workbench/**/*.out.txt
+sources/raw/
+sources/restricted/
+kb/unpublished/
+exports/
+*.eml
+*.msg
+*.pst
+*.har
+
+# Generated workbooks (build them from examples/intake)
+*.xlsx
+*.xlsm
+
+# --- Logs, caches, packages --------------------------------------------
+*.log
+*.transcript.txt
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.cache/
+.pytest_cache/
+
+# --- Windows and Office cruft ------------------------------------------
+Thumbs.db
+desktop.ini
+~$*
+
+# --- Large binaries ----------------------------------------------------
+*.zip
+*.iso
+*.msi
+*.mst
+*.exe
+*.intunewin

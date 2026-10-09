@@ -1,0 +1,25 @@
+{
+  "_note": "Fictional snapshot of a correctly built account whose name has accented letters. The UPN and account name use the base letters. Saved as UTF-8 without a BOM.",
+  "Name": "René Núñez (Contractor)",
+  "SamAccountName": "ReneNunez",
+  "UserPrincipalName": "ReneNunez@contoso.com",
+  "DisplayName": "René Núñez (Contractor)",
+  "GivenName": "René",
+  "Surname": "Núñez",
+  "StreetAddress": "100 Example Way, Suite 200",
+  "City": "Springfield",
+  "State": "CO",
+  "PostalCode": "80000",
+  "Country": "US",
+  "Department": "Operations",
+  "Title": "Field Analyst",
+  "Manager": "CN=Morgan Example,OU=Employees,OU=Users,DC=corp,DC=contoso,DC=com",
+  "extensionAttribute10": "Start: 2026-02-02",
+  "Enabled": true,
+  "DistinguishedName": "CN=René Núñez (Contractor),OU=Contractors,OU=Users,DC=corp,DC=contoso,DC=com",
+  "MemberOf": [
+    "All Staff",
+    "Contractors",
+    "VPN Users"
+  ]
+}

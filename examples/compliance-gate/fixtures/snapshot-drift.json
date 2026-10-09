@@ -1,0 +1,24 @@
+{
+  "_note": "Fictional snapshot showing the kind of drift a generated build block can introduce: no suffix on the CN, lowercase account name, missing address fields, start-date stamp without its prefix, one group missed.",
+  "Name": "Avery Sample",
+  "SamAccountName": "averysample",
+  "UserPrincipalName": "AverySample@contoso.com",
+  "DisplayName": "Avery Sample (Contractor)",
+  "GivenName": "Avery",
+  "Surname": "Sample",
+  "StreetAddress": null,
+  "City": "Springfield",
+  "State": null,
+  "PostalCode": null,
+  "Country": "US",
+  "Department": "Operations",
+  "Title": "Field Analyst",
+  "Manager": "CN=Morgan Example,OU=Employees,OU=Users,DC=corp,DC=contoso,DC=com",
+  "extensionAttribute10": "2026-01-12",
+  "Enabled": true,
+  "DistinguishedName": "CN=Avery Sample,OU=Contractors,OU=Users,DC=corp,DC=contoso,DC=com",
+  "MemberOf": [
+    "All Staff",
+    "Contractors"
+  ]
+}
